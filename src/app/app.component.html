@@ -4,30 +4,27 @@
     <b>Angulare 12</b> Base Project with Bootstrap 5
   </div>
 
-  <div class="card">
-    <div class="card-header">
-      Some Card
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Content Title</h5>
-      <p class="card-text">Just some Content</p>
-      <a href="#" class="btn btn-primary">Button that does nothing</a>
-    </div>
-  </div>
-<h2>Title = {{title}}</h2>
-<input type="text" [(ngModel)]="title" >
-<br />
-<br />
-  <user-card [name]="title" [token]="token" avatar="https://randomuser.me/api/portraits/men/1.jpg"
-  someOtherProperty="valueOne">
+  <h2>Bound Property = {{ user1 }}</h2>
+  <input type="text" [(ngModel)]="user1" />
+  <br />
+  <br />
+  <user-card
+    [name]="user1"
+    [token]="token"
+    avatar="https://randomuser.me/api/portraits/men/9.jpg"
+    someOtherProperty="valueOne"
+  >
     <div slot="email">john@somewhere.com</div>
     <div slot="phone">222-333-4444</div>
-</user-card>
-<br />
-<user-card [name]="user2" [token]="token" avatar="https://randomuser.me/api/portraits/women/1.jpg"
-someOtherProperty="valueTwo">
-  <div slot="email">jane@somewhere.com</div>
-  <div slot="phone">777-888-9999</div>
-</user-card>
-
+  </user-card>
+  <br />
+  <user-card
+    [name]="user2"
+    [token]="token"
+    avatar="https://randomuser.me/api/portraits/women/2.jpg"
+    someOtherProperty="valueTwo"
+  >
+    <div slot="email">jane@somewhere.com</div>
+    <div slot="phone">777-888-9999</div>
+  </user-card>
 </div>
