@@ -14,5 +14,12 @@
       <a href="#" class="btn btn-primary">Button that does nothing</a>
     </div>
   </div>
-
+<h2>Title = {{title}}</h2>
+<input type="text" [(ngModel)]="title" >
+<br />
+<br />
+  <user-card [name]="title" [token]="token" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+    <div slot="email">john@somewhere.com</div>
+    <div slot="phone">222-333-4444</div>
+</user-card>
 </div>
