@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   user1 = 'John Doe';
   user2 = 'Jane Doe';
-  maxCharText = 'This text is being passed to the max-characters web component';
+  maxCharText = 'Type here...';
   token =
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
 }
