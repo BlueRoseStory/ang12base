@@ -28,5 +28,6 @@
     <div slot="phone">777-888-9999</div>
   </user-card>
 
-  <max-characters [text]="maxCharText"></max-characters>
+  <input type="text" [(ngModel)]="maxCharText" />
+  <max-characters [text]="maxCharText" maxCharacters="200"></max-characters>
 </div>
