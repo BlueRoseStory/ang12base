@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "empty": "change-just-to-kick-build2"
+    "empty": "change-just-to-kick-build4"
   },
   "dependencies": {
     "@angular/animations": "12.2.16",
