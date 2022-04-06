@@ -9,22 +9,12 @@
   <br />
 
   <br />
-  <user-card
-    [name]="user1"
-    [token]="token"
-    userId="2"
-    someOtherProperty="valueOne"
-  >
+  <user-card [name]="user1" [token]="token" user-id="9">
     <div slot="email">john@somewhere.com</div>
     <div slot="phone">222-333-4444</div>
   </user-card>
   <br />
-  <user-card
-    [name]="user2"
-    [token]="token"
-    avatar="https://randomuser.me/api/portraits/women/2.jpg"
-    someOtherProperty="valueTwo"
-  >
+  <user-card [name]="user2" [token]="token" user-id="102">
     <div slot="email">jane@somewhere.com</div>
     <div slot="phone">777-888-9999</div>
   </user-card>
